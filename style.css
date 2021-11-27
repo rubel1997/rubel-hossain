@@ -22,7 +22,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexiable-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -46,4 +46,38 @@ section {
     background-image: linear-gradient(orange, gray);
     color: wheat;
     font-weight: 500;
+}
+
+.exp-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-tiem {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+p {
+    text-align: justify;
+}
+
+#full-stack {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 10px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
